@@ -1,0 +1,1644 @@
+[ 2017-03-31T10:57:36+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T10:58:20+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T10:58:20+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:12:06+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:12:11+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=2017-03-15&time2=2017-03-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-15' AND '2017-03-15' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-15' AND '2017-03-15' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:12:13+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:13:38+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:13:43+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=2017-03-01&time2=2017-03-22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-01' AND '2017-03-22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-01' AND '2017-03-22' LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:02+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=2017-03-01&time2=2017-03-22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-01' AND '2017-03-22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-01' AND '2017-03-22' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:14:05+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:08+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:14:11+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:12+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 15,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:15+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:14:16+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:14:17+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:18+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 15,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:19+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:22+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:25+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:27+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 15,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:14:28+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:11+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:13+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 15,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:15+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 10,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:16+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:17+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:27+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=2017-03-16&time2=2017-03-25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:29+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-25/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:30+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-25/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:33+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-25/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-25' LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:36+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=2017-03-16&time2=2017-03-27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:38+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-27/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:39+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-27/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:40+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-27/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:15:41+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/time/2017-03-16/time2/2017-03-27/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  WHERE `create_time` BETWEEN '2017-03-16' AND '2017-03-27' LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:46+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:48+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:49+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 10,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:15:50+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:16:49+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:27:58+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:28:04+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList?log_name=&time=2017-03-08&time2=2017-03-22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 AND `create_time` BETWEEN '2017-03-08' AND '2017-03-22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 AND `create_time` BETWEEN '2017-03-08' AND '2017-03-22' LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:28:07+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:28:09+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:28:11+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:28:43+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:28:44+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:28:47+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:00+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList?log_name=&time=2017-03-01&time2=2017-03-15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 AND `create_time` BETWEEN '2017-03-01' AND '2017-03-15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 AND `create_time` BETWEEN '2017-03-01' AND '2017-03-15' LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:14+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList?log_name=&time=&time2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:16+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:29:17+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:49+08:00 ] ::1 /OA/index.php/Log/FillLog/addLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:29:50+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:50+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-31T11:29:51+08:00 ] ::1 /OA/index.php/Log/LogList/showOneLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` WHERE `employee_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` WHERE `employee_id` = 1 LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\b45064d2f861ad880c937302a5bd411a.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-31T11:30:38+08:00 ] ::1 /OA/index.php/Log/LogList/showLogList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('1','4','5','6','10','12','13','14','15','16','17','19','20','21','22','23','24','26','27','28','30','31','32','33','56','2','3','7','8','9','11','18','25','29','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `log` INNER JOIN employee on log.employee_id = employee.employee_id  LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 396 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 397 行.
+NOTIC: [8] Undefined variable: log C:\wamp64\www\OA\Application\Runtime\Cache\Log\ae7e98945c0137d92e168bf03f98432e.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

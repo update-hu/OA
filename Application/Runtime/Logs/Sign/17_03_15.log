@@ -1,0 +1,219 @@
+[ 2017-03-15T14:40:02+08:00 ] ::1 /OA/Employee/Temp/buttons.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Employee
+
+[ 2017-03-15T17:58:35+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:06:18+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:06:19+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:06:19+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:06:19+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:16:52+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:23:33+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:23:33+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:26:38+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:26:38+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T18:26:38+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T19:02:22+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T19:02:23+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T19:02:23+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+
+[ 2017-03-15T19:02:23+08:00 ] ::1 /OA/Sign/SignList/showSignList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sign` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'leave as a INNER JOIN employee as b on a.employee_id=b.employee_id' at line 1
+ [ SQL语句 ] : SELECT * FROM leave as a INNER JOIN employee as b on a.employee_id=b.employee_id  
+

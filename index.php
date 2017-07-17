@@ -30,6 +30,8 @@ define('APP_PATH','./Application/');
 //define('BIND_MODULE','Train');
 //define('BIND_MODULE','Sign');
 //define('BIND_MODULE','Auth');
+//define('BIND_MODULE', 'Game');
+//define('BIND_MODULE', 'Chess');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

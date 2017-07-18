@@ -23,4 +23,14 @@ class AdCpaModel extends Model {
         return $data;
     }
 
+    public function _update($where, $data) {
+
+        if(empty($where) || empty($data)) {
+            return false;
+        }
+        $rs = $this->where($where)->save($data);
+
+        return $rs ? true : false;
+    }
+
 }

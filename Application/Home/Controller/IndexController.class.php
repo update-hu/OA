@@ -10,16 +10,13 @@ class IndexController extends Controller {
     public function test() {
 
 
-
-        $t = date('Y-m-d', time());
-        echo $t;
-
-
+        echo phpinfo();
 
 
 
 
     }
+
 
 
 
